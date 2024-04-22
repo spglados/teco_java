@@ -5,7 +5,7 @@ public class BookProgram {
 	// 코드의 시작점
 	public static void main(String[] args) {
 		
-		// Book 클래스를 인스턴스로 시켜 주세요 2개
+		// Book 클래스를 인스턴스화 시켜 주세요 2개
 		// 참조 타입 변수명은 bookBox1, bookBox2
 		Book bookBox1 = new Book(); // 객체 생성
 		Book bookBox2 = new Book(); // 객체 생성
