@@ -129,7 +129,7 @@ public class MyBookStore {
 		}
 
 		if (isFind == false) {
-			System.out.println("해당 제목에 책은 존재하지 않습니다");
+			System.out.println("해당 제목의 책은 존재하지 않습니다");
 		}
 	}
 

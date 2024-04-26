@@ -24,6 +24,7 @@ public class Operation8 {
 		Scanner sc = new Scanner(System.in);
 		int x = sc.nextInt(); // 사용자가 입력한 정수값을 받아 주는 녀석
 		System.out.println(" x 의 받은 값은 : " + x);
+		
 		int y = sc.nextInt();
 		System.out.println(" y의 받은 값은 : " + y);
 		
