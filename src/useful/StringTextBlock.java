@@ -20,7 +20,6 @@ public class StringTextBlock {
 				}
 				""";
 		
-		
 		String htmlText = """
 
 				<!doctype html>
@@ -59,12 +58,7 @@ public class StringTextBlock {
 				    <link rel="stylesheet" href="shared_vars.css">
 				  </body>
 				</html>
-
-
-
 								""";
 		// html, json 문자열을 만드는데 유용하게 사용할 수 있음
-
 	}
-
 }

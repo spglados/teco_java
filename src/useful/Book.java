@@ -15,12 +15,10 @@ public class Book extends Object { // 메서드 앞 final은 상속 불가로 �
 		this.title = title;
 		this.author = author;
 	}
-	
 	// Object - > toString();
 	
 	@Override
 		public String toString() {
-		
 			return "[" + title + ", " + author + "]";
 		}
 
@@ -33,5 +31,4 @@ public class Book extends Object { // 메서드 앞 final은 상속 불가로 �
 		String str1 = new String("안녕");
 		System.out.println(str1);
 	}
-
 }

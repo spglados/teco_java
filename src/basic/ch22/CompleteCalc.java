@@ -2,17 +2,14 @@ package basic.ch22;
 
 public class CompleteCalc extends Calculator  {
 
-	
 	@Override
 	public int add(int n1, int n2) {
 		return n1 + n2;
 	}
-
 	@Override
 	public int substract(int n1, int n2) {
 		return n1 - n2;
 	}
-
 	@Override
 	public int times(int n1, int n2) {
 		return n1 * n2;
@@ -35,8 +32,5 @@ public class CompleteCalc extends Calculator  {
 		if( calc instanceof CompleteCalc ) {
 			((CompleteCalc) calc).showInfo();
 		}
-			
 	}
-	
-	
 }

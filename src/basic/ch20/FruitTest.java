@@ -4,8 +4,7 @@ public class FruitTest {
 	
 	public static void main(String[] args) {
 		
-		// 다형성
-		// 다양한 형태로 클래스(데이터 타입을) 바라 볼 수 있다.
+		// 다형성 다양한 형태로 클래스(데이터 타입을) 바라 볼 수 있다.
 		
 		Fruit fruit1 = new Banana(); // 업캐스팅된 상태
 		Fruit fruit2 = new Peach();  // 업캐스팅된 상태
@@ -56,7 +55,5 @@ public class FruitTest {
 				fruits[i].showInfo();
 			}
 		}
-		
 	} // end of main
-
 } // end of class

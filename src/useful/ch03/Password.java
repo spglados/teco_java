@@ -41,5 +41,4 @@ public class Password {
 		// "A1" , "bbb"(3글자) --> false
 		this.pwd = pwd;
 	}
-
 }

@@ -26,9 +26,6 @@ public class StringBufferTest {
 		// 활용
 		String newStr = bufferStr.toString(); // toStrin 호출시 타입 -> String
 		
-		
-		
-		
 	} // end of main
 
 } // end of class

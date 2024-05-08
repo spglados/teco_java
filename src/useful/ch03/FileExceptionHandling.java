@@ -28,7 +28,7 @@ public class FileExceptionHandling {
 			}  
 		}
 		
-		System.out.println("비정상 종료 되지 않았아요~");
+		System.out.println("비정상 종료 되지 않았어요~");
 		
 	} // end of main 
 	

@@ -21,17 +21,14 @@ public class ToyMachine {
 	public void addProduct(Product product) {
 		// 공간[0] = 상품
 		products[0] = product;
-+
+
 		if (productCount < MAX_PRODUCT) {
 			for (int i = 1; i < products.length; i++) {
-
 			}
 		}
-
 	}
 
-	// 요구 조건
-	// 배열을 활용해서 객체들을 담아 주세요
+	// 요구 조건 - 배열을 활용해서 객체들을 담아 주세요
 	int tryNumber = ToyMachine.takeToy();
 
 	public static int takeToy() {
@@ -39,5 +36,4 @@ public class ToyMachine {
 		int resultNumber = random.nextInt(10) + 1;
 		return resultNumber;
 	}
-
 }

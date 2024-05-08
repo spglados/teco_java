@@ -12,7 +12,6 @@ public class Classroom {
 		students = new Student[MAX_STUDENT];
 		this.studentCount = 0; // 값을 주지않더라도 위에서 0으로 초기화됨
 	}
-
 	// 학생을 추가하는 기능 만들기
 	public void addStudent(Student student) {
 		// 방어적 코드
@@ -23,7 +22,6 @@ public class Classroom {
 			System.out.println("정원 초과");
 		}
 	}
-
 	// 학급에 속한 모든 학생 정보를 출력하는 기능을 만드시오
 	public void showStudents() {
 		for (int i = 0; i < students.length; i++) {
@@ -32,8 +30,6 @@ public class Classroom {
 				// students[i] --> [객체주소] ---> heap 영역 객체를 참조
 				System.out.println("name : " + students[i].getName() + " , age : " + students[i].getAge());
 			}
-
 		}
 	}
-
 }

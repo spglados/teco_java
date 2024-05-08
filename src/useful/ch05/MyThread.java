@@ -1,11 +1,10 @@
 package useful.ch05;
 
 /**
- * 쓰레드를 추가하는 방법 - 상속을 활용할 수 있다.
- * Thread --> Runnable --> run() 
+ * 쓰레드를 추가하는 방법 - 상속을 활용할 수 있다. Thread --> Runnable --> run()
  */
 public class MyThread extends Thread {
-	
+
 	// 우리가 정의한 클래스에서 run() 메서드 재정의 할 수 있다.
 	// 쓰레드를 사용할 때 알아야 하는 필수 개념 - 그냥 외우자!
 	// 쓰레드가 가지고 있는 메서드 start() 호출 시키면 약속으로
@@ -16,7 +15,7 @@ public class MyThread extends Thread {
 		// 임무 -> 반복문 200을 수행해!
 		for (int i = 0; i < 200; i++) {
 			System.out.println(i + ", ");
-			
+
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
@@ -24,7 +23,5 @@ public class MyThread extends Thread {
 			}
 		}
 	}
-	
-	
 
 } // end of class

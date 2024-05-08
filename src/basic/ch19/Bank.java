@@ -12,7 +12,6 @@ public class Bank {
 	public String getName() {
 		return name;
 	}
-
 	// 대표적인 Bank 기능 , 상호작용 --> 연관관계
 	public void provideService(ServiceType serviceType, Customer customer) {
 		switch (serviceType) {
@@ -28,7 +27,6 @@ public class Bank {
 			System.out.println("해당 서비스는 제공하지 않습니다.");
 		}
 	}
-
 	// 상호 작용
 	public void showAccountInfo(Customer customer) {
 		System.out.println("사용자 이름을 출력 합니다");

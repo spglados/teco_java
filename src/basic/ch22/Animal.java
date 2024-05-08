@@ -8,7 +8,6 @@ interface Animal { // --> 인터페이스 선언
 	// 축약 가능
 	void eat(); // = public abstract void eat();
 	void move(); // = public abstract void move();
-	
 }
 
 // implements - 구현하다
@@ -19,13 +18,10 @@ class Dog implements Animal {
 	public void eat() {
 		System.out.println("먹이를 먹다");
 	}
-
 	@Override
 	public void move() {
 		System.out.println("촐랑촐랑 다닌다");
 	}
-		
-	
 }
 
 class Bird implements Animal{
@@ -34,10 +30,8 @@ class Bird implements Animal{
 	public void eat() {
 		 System.out.println("모이를 먹다");
 	}
-
 	@Override
 	public void move() {
 		System.out.println("날아다니다");
 	}
-	
 }

@@ -1,6 +1,6 @@
 package basic.exercise.Interfaces;
 
-public class UserInfoOrcleDaoImpl implements IUserInfoDao{
+public class UserInfoOracleDaoImpl implements IUserInfoDao{
 
 	@Override
 	public void insertUserInfo(UserInfo info) {

@@ -30,10 +30,6 @@ public class AnimalTest {
 		// 업캐스팅
 		// Animal animal = new Dog();  업캐스팅 , 선언됨
 		
-		// 다운캐스팅
-		//
-		
-		
 	} // end of main
 
 } // end of class
