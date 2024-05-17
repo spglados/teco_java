@@ -61,7 +61,6 @@ public class IntArrayQueue {
 			rear--;
 			size--;
 		}
-
 		return item;
 	}
 
@@ -72,9 +71,8 @@ public class IntArrayQueue {
 			return -9999;
 		} else {
 			// peek --> 맨 앞에 데이터를 리턴 시켜주는 기능일 뿐
-			return array[front]; 
+			return array[front];
 		}
-		
 	}
 
 	// 코드 테스트
